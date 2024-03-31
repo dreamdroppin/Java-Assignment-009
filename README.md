@@ -16,7 +16,12 @@
     * Why not?
 
 ```text
-ANSWER Why not? HERE
+There's an integer overflow.
+It's going higher than the max value
+that can be represented by 'int'.
+It goes higher than the data type range.
+With how the factorial of
+15 is 1,307,674,368,000.
 ```
 
 3. Convert factorial so that it performs its calculation using **BigIntegers** and returns a **BigInteger** as a result.
@@ -26,7 +31,12 @@ ANSWER Why not? HERE
     * How high can you make it go?
 
 ```text
-ANSWER #4 HERE
+For one, BigInteger can handle large numbers.
+So, yes, it can go up to 30. How high?
+As both Google and the textbook says,
+it only depends on the memory size.
+Theoretically, it's unlimited.
+The only limit is what the storage can handle. 
 ```
 
 ## Submission
